@@ -57,7 +57,7 @@ study-cursor/
 │       ├── 01_クイックスタート.md   ← 最短 15 分版（最初はこれ）
 │       ├── 02_環境構築ガイド.md    ← Cursor 導入（詳細版）
 │       ├── 03_ハンズオン.md       ← clone → Open Folder → Chat 投入
-│       └── 04_Cursor操作.md      ← Hobby 枠 + Chat/Composer/Tab
+│       └── 04_Cursor操作.md      ← 操作リファレンス & 統合トラブルシューティング
 └── src/
     └── office-task/                                         ← 事務処理タスク（プロンプトメモ + データ）
 ```
@@ -74,7 +74,7 @@ study-cursor/
 | [`01_クイックスタート.md`](./docs/教育資料/01_クイックスタート.md) | **15 分で Cursor を動かす最短ルート（最初はこれ）** |
 | [`02_環境構築ガイド.md`](./docs/教育資料/02_環境構築ガイド.md) | Cursor を Windows にインストール + サインインする詳細手順書 |
 | [`03_ハンズオン.md`](./docs/教育資料/03_ハンズオン.md) | clone → Cursor で Open Folder → Chat に投入の詳細版 |
-| [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md) | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` |
+| [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md) | 操作リファレンス（Hobby 枠 + Chat / Composer / Tab / Inline / `@file`）& 統合トラブルシューティング |
 | [`docs/01_仕様と設計.md`](./docs/01_仕様と設計.md) | ユーザー像・ゴール・全体構成・設計上の決め事 |
 | [`docs/02_移行ロードマップ.md`](./docs/02_移行ロードマップ.md) | 今後追加したいプロンプト／ドキュメントの backlog |
 | [`docs/03_実装カタログ.md`](./docs/03_実装カタログ.md) | 実体ファイル目録 |

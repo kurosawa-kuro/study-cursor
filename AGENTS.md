@@ -19,10 +19,11 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 - `README.md` — 入口（最小、機能概要のみ）
 - `AGENTS.md` — 本ファイル
 - `.cursor/rules/repo.mdc` — Cursor 用プロジェクトルール（Chat / Composer のコンテキストに自動付与）
-- `docs/教育資料/01_クイックスタート.md` — **15 分で Cursor を動かす最短ルート**
-- `docs/教育資料/02_環境構築ガイド.md` — Cursor 導入の詳細手順書
-- `docs/教育資料/03_ハンズオン.md` — clone → Cursor で Open Folder → Chat 投入の詳細版
-- `docs/教育資料/04_Cursor操作.md` — Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` の使い分け
+- `docs/教育資料/00_導入スライド.md` — 導入（なぜ AI 業務効率化か / なぜ Cursor か / 得られるリターン / 学習ロードマップ / 用語）
+- `docs/教育資料/01_クイックスタート.md` — **15 分で Cursor を動かす最短チェックリスト**
+- `docs/教育資料/02_環境構築ガイド.md` — Phase 1：Cursor 導入 + サインインの詳細手順書
+- `docs/教育資料/03_ハンズオン.md` — Phase 2：clone → Open Folder → Chat 投入の詳細版
+- `docs/教育資料/04_Cursor操作.md` — 操作リファレンス（Hobby 枠 + Chat / Composer / Tab / Inline / `@file`）& 統合トラブルシューティング
 - `docs/01_仕様と設計.md` 〜 `05_運用.md` — 仕様 / backlog / 実体目録 / 動作確認 / 利用者フロー。権威順位と更新ルールは `docs/README.md` 参照
 - `src/office-task/` — 事務処理タスクのプロンプトメモ + サンプルデータ（`README.md` にプロンプトを保管）
 

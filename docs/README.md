@@ -21,7 +21,7 @@
 | [`./教育資料/01_クイックスタート.md`](./教育資料/01_クイックスタート.md) | **15 分で Cursor を動かす最短ルート** | 利用者（非エンジニア・急ぎ） | Cursor の主要 UI 変更時 |
 | [`./教育資料/02_環境構築ガイド.md`](./教育資料/02_環境構築ガイド.md) | Cursor 導入手順書（詳細版） | 利用者（非エンジニア・じっくり派） | Cursor の導入手順変化時 |
 | [`./教育資料/03_ハンズオン.md`](./教育資料/03_ハンズオン.md) | clone → Cursor で Open Folder → Chat 投入の詳細版 | 利用者（非エンジニア・じっくり派） | `src/` 構成変更時 |
-| [`./教育資料/04_Cursor操作.md`](./教育資料/04_Cursor操作.md) | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` の使い分け | 利用者 / LLM | Cursor の UI / Hobby 枠仕様変更時 |
+| [`./教育資料/04_Cursor操作.md`](./教育資料/04_Cursor操作.md) | 操作リファレンス（Hobby 枠 + Chat / Composer / Tab / Inline / `@file`）& 統合トラブルシューティング（全工程のトラブルを集約） | 利用者 / LLM | Cursor の UI / Hobby 枠仕様変更時 |
 
 ---
 
