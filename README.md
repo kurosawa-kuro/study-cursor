@@ -24,7 +24,7 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 
 ## はじめかた
 
-> 🚀 **最短で動かしたい方は** → **[`00_クイックスタート.md`](./docs/教育資料/00_クイックスタート.md)（15 分版）**
+> 🚀 **最短で動かしたい方は** → **[`01_クイックスタート.md`](./docs/教育資料/01_クイックスタート.md)（15 分版）**
 
 3 ステップで動く:
 
@@ -36,9 +36,9 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 
 | 段階 | 内容 | ドキュメント | 所要時間 |
 |---|---|---|---|
-| Phase 1 | Cursor を Windows に手動インストール + サインイン | [`01_環境構築ガイド.md`](./docs/教育資料/01_環境構築ガイド.md) | 10〜20 分 |
-| Phase 2 | リポジトリを Cursor で開いて Chat にプロンプト投入 | [`02_ハンズオン.md`](./docs/教育資料/02_ハンズオン.md) | 5〜10 分 |
-| Cursor の使い方 | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit | [`03_Cursor操作.md`](./docs/教育資料/03_Cursor操作.md) | 必要時 |
+| Phase 1 | Cursor を Windows に手動インストール + サインイン | [`02_環境構築ガイド.md`](./docs/教育資料/02_環境構築ガイド.md) | 10〜20 分 |
+| Phase 2 | リポジトリを Cursor で開いて Chat にプロンプト投入 | [`03_ハンズオン.md`](./docs/教育資料/03_ハンズオン.md) | 5〜10 分 |
+| Cursor の使い方 | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit | [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md) | 必要時 |
 
 動作確認・運用は [`docs/05_運用.md`](./docs/05_運用.md) と [`docs/04_検証.md`](./docs/04_検証.md) 参照。
 
@@ -53,10 +53,11 @@ study-cursor/
 ├── .cursor/rules/repo.mdc                                   ← Cursor 用プロジェクトルール
 ├── docs/                                                    ← 仕様・運用・検証ドキュメント
 │   └── 教育資料/                                            ← 利用者向け手順書
-│       ├── 00_クイックスタート.md   ← 最短 15 分版（最初はこれ）
-│       ├── 01_環境構築ガイド.md    ← Cursor 導入（詳細版）
-│       ├── 02_ハンズオン.md       ← clone → Open Folder → Chat 投入
-│       └── 03_Cursor操作.md      ← Hobby 枠 + Chat/Composer/Tab
+│       ├── 00_導入スライド.md       ← 手を動かす前の導入（なぜ Cursor / リターン）
+│       ├── 01_クイックスタート.md   ← 最短 15 分版（最初はこれ）
+│       ├── 02_環境構築ガイド.md    ← Cursor 導入（詳細版）
+│       ├── 03_ハンズオン.md       ← clone → Open Folder → Chat 投入
+│       └── 04_Cursor操作.md      ← Hobby 枠 + Chat/Composer/Tab
 └── src/
     └── office-task/                                         ← 事務処理タスク（プロンプトメモ + データ）
 ```
@@ -69,10 +70,11 @@ study-cursor/
 
 | ファイル | 役割 |
 |---|---|
-| [`00_クイックスタート.md`](./docs/教育資料/00_クイックスタート.md) | **15 分で Cursor を動かす最短ルート（最初はこれ）** |
-| [`01_環境構築ガイド.md`](./docs/教育資料/01_環境構築ガイド.md) | Cursor を Windows にインストール + サインインする詳細手順書 |
-| [`02_ハンズオン.md`](./docs/教育資料/02_ハンズオン.md) | clone → Cursor で Open Folder → Chat に投入の詳細版 |
-| [`03_Cursor操作.md`](./docs/教育資料/03_Cursor操作.md) | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` |
+| [`00_導入スライド.md`](./docs/教育資料/00_導入スライド.md) | **手を動かす前の導入（なぜ AI 業務効率化か / なぜ Cursor か / 得られるリターン）** |
+| [`01_クイックスタート.md`](./docs/教育資料/01_クイックスタート.md) | **15 分で Cursor を動かす最短ルート（最初はこれ）** |
+| [`02_環境構築ガイド.md`](./docs/教育資料/02_環境構築ガイド.md) | Cursor を Windows にインストール + サインインする詳細手順書 |
+| [`03_ハンズオン.md`](./docs/教育資料/03_ハンズオン.md) | clone → Cursor で Open Folder → Chat に投入の詳細版 |
+| [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md) | Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` |
 | [`docs/01_仕様と設計.md`](./docs/01_仕様と設計.md) | ユーザー像・ゴール・全体構成・設計上の決め事 |
 | [`docs/02_移行ロードマップ.md`](./docs/02_移行ロードマップ.md) | 今後追加したいプロンプト／ドキュメントの backlog |
 | [`docs/03_実装カタログ.md`](./docs/03_実装カタログ.md) | 実体ファイル目録 |
@@ -87,7 +89,7 @@ study-cursor/
 ## 設計上の前提（要点）
 
 - **対象 OS は Windows 10/11 のみ**
-- **Cursor の Hobby 枠（無料プラン）だけ** で完結する。Slow request の月次上限と利用可能モデルの制限を意識する（詳細は [`03_Cursor操作.md`](./docs/教育資料/03_Cursor操作.md)）
+- **Cursor の Hobby 枠（無料プラン）だけ** で完結する。Slow request の月次上限と利用可能モデルの制限を意識する（詳細は [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md)）
 - **Python / Node.js などのプログラミングランタイムはインストールしない**。Windows 標準機能（PowerShell / Excel / エクスプローラ / Edge）または Cursor 内のファイル読み書きで完結する解を Cursor に依頼する
 - `src/office-task/` のファイル操作タスクでは **元ファイルは変更・移動・削除しない**（コピーを作って新しい名前で同じ場所に保存する）
 - プロンプトメモ（`src/office-task/README.md`）は **共通項目を上部に DRY 化せず**、各セクションを自己完結させる（利用者が単独でコピペ可能にする）

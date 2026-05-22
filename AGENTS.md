@@ -19,10 +19,10 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 - `README.md` — 入口（最小、機能概要のみ）
 - `AGENTS.md` — 本ファイル
 - `.cursor/rules/repo.mdc` — Cursor 用プロジェクトルール（Chat / Composer のコンテキストに自動付与）
-- `docs/教育資料/00_クイックスタート.md` — **15 分で Cursor を動かす最短ルート**
-- `docs/教育資料/01_環境構築ガイド.md` — Cursor 導入の詳細手順書
-- `docs/教育資料/02_ハンズオン.md` — clone → Cursor で Open Folder → Chat 投入の詳細版
-- `docs/教育資料/03_Cursor操作.md` — Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` の使い分け
+- `docs/教育資料/01_クイックスタート.md` — **15 分で Cursor を動かす最短ルート**
+- `docs/教育資料/02_環境構築ガイド.md` — Cursor 導入の詳細手順書
+- `docs/教育資料/03_ハンズオン.md` — clone → Cursor で Open Folder → Chat 投入の詳細版
+- `docs/教育資料/04_Cursor操作.md` — Hobby 枠の制約 + Chat / Composer / Tab / Inline Edit / `@file` の使い分け
 - `docs/01_仕様と設計.md` 〜 `05_運用.md` — 仕様 / backlog / 実体目録 / 動作確認 / 利用者フロー。権威順位と更新ルールは `docs/README.md` 参照
 - `src/office-task/` — 事務処理タスクのプロンプトメモ + サンプルデータ（`README.md` にプロンプトを保管）
 
@@ -62,7 +62,7 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 
 ## 5. Cursor 利用時のルール
 
-- **Hobby 枠の制約を意識する**: Slow request の月次上限と利用可能モデルの制限がある（具体的な数値は `docs/教育資料/03_Cursor操作.md` 参照）。1 リクエストに長文・多並列を詰め込まず、小さく分割する
+- **Hobby 枠の制約を意識する**: Slow request の月次上限と利用可能モデルの制限がある（具体的な数値は `docs/教育資料/04_Cursor操作.md` 参照）。1 リクエストに長文・多並列を詰め込まず、小さく分割する
 - **Chat (Ctrl+L)** が基本。複数ファイル横断の変更が必要なときだけ **Composer (Ctrl+I)**、ピンポイント編集は **Inline Edit (Ctrl+K)**
 - リポジトリ内のドキュメントを参照させたいときは `@file` / `@folder` / `@docs` を使う
 - 本ファイル (`AGENTS.md`) と `.cursor/rules/repo.mdc` は Cursor が自動的にコンテキストに加えるため、ユーザーが明示的に貼る必要はない
